@@ -1,0 +1,1 @@
+Readme file for my repository and here is where I start learning C
