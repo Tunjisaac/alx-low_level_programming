@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * times_table -  it prints the 9 times table, starting with 0
- *row_variable is  rowf = row,column_variable colf = column, d = numbers of current result
+ *rowf = row,colf = column, d = numbers of current result
  * Return: times table
  * add extra space past single digit
  */
@@ -26,7 +26,6 @@ void times_table(void)
 				_putchar(' ');
 			}
 			_putchar((d % 10) + '0');
-
 			if (colf < 9)
 			{
 				_putchar(',');
