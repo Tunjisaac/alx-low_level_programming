@@ -12,7 +12,7 @@ void print_to_98(int p)
 	{
 		while (p <= 98)
 		{
-			printf("%d", n);
+			printf("%d", p);
 			if (p != 98)
 			{
 				printf(", ");
@@ -36,5 +36,5 @@ void print_to_98(int p)
 	{
 		printf("98");
 	}
-	printf("\p");
+	printf("\n");
 }
