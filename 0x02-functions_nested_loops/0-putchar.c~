@@ -6,7 +6,7 @@ int main(void)
  * Return: Always 0 (Success)
  */
 {
-	_putchar *sh = "_putchar";
+	char *sh = "_putchar";
 
 	while (*sh)
 	{
