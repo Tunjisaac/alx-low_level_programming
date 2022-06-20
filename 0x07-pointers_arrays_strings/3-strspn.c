@@ -15,7 +15,7 @@ while (*s != '\0')
 {
 	while (*accept != '\0')
 	{
-		if (*s == *accept)
+		if(*s == *accept)
 			break;
 			count++;
 			accept++;
@@ -27,5 +27,5 @@ if (*accept == '\0')
 	break;
 
 }
-		return (count + 1);
+		return(count + 1);
 }
